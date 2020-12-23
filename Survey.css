@@ -1,0 +1,193 @@
+html {
+  background-color: black;
+  background-image: url("Resources/background.png");
+  background-size:     auto;                      /* <------ */
+    background-repeat:   no-repeat;
+    background-position: center center;
+    bac
+}
+
+#title {
+  text-align: center;
+  color: white;
+  font-family: 'Jura', sans-serif;
+  font-weight: 700;
+  font-size: 36px;
+}
+
+#description {
+  text-align: center;
+  color: white;
+  font-family: 'Jura', sans-serif;
+  font-weight: 500;
+  font-size: 18px;
+}
+
+#quote {
+  border-radius: 10px;
+  position: relative;
+  font-style: italic;
+  text-align: center;
+  padding: 1rem 1.2rem;
+  width: 25%;
+  color: white;
+  margin: 1rem auto 2rem;
+  background: rgb(36,40,42,.7);
+}
+
+
+#palp-profile {
+  border-radius: 50%;
+  padding-top: 20px;
+  display: block;
+  margin: auto;
+  max-width: 100%;
+  height: auto;
+
+}
+
+#container {
+  background: rgb(36,40,42,.7);
+  border-radius: 10px;
+  padding: 20px;
+  margin: auto;
+  width: auto;
+  max-width: 720px;
+  display: block;
+  justify-content: center;
+
+
+}
+
+#form{
+  margin: auto;
+  padding: 20px;
+
+}
+
+.form-section{
+  padding: 2.5px;
+  margin: 5px;
+
+}
+
+#trooper-id-label{
+  color: white;
+  font-family: 'Jura', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#trooper-id{
+  font-family: 'Jura', sans-serif;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+#email-label{
+  color: white;
+  font-family: 'Jura', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#email{
+  font-family: 'Jura', sans-serif;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+
+}
+
+#number-label{
+  color: white;
+  font-family: 'Jura', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#number{
+  font-family: 'Jura', sans-serif;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+#dropdown-label{
+  color: white;
+  font-family: 'Jura', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#dropdown{
+  font-family: 'Jura', sans-serif;
+  font-weight: 600;
+  width: 100%;
+  margin-top: 5px;
+  margin-bottom: 5px;
+  border: 1px solid #ced4da;
+  border-radius: 0.25rem;
+}
+
+#satisfaction-title{
+  color: white;
+  font-family: 'Jura', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+.radio-buttons-label{
+  color: white;
+  font-family: 'Jura', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+  margin-top: 0px;
+}
+
+#checkboxes-title{
+  color: white;
+  font-family: 'Jura', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+  margin-bottom: 0;
+
+}
+
+#checkboxes-title span{
+  font-size: 18px;
+
+}
+
+.checkboxes{
+  color: white;
+  font-family: 'Jura', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+#comments-label{
+  color: white;
+  font-family: 'Jura', sans-serif;
+  font-weight: 700;
+  font-size: 24px;
+}
+
+#comments{
+  width: 100%;
+  padding-bottom: 50px;
+  margin-top: 5px;
+  font-family: 'Jura', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+}

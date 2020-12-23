@@ -1,39 +1,53 @@
 <!doctype html>
 <html>
+
 <head>
-<meta charset="utf-8">
+	<meta charset="utf-8">
+	<link rel="stylesheet" href="Survey.css">
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Jura:wght@300;400;500;600;700&display=swap" rel="stylesheet">
 </head>
 
-	
+
 <body>
-	
-	<h1 id="title">Fill out this form storm trooper</h1>
-	
-	<p id="description">Do it</p>
-	
-	
+
+	<h1 id="title">Imperial Benefits Form</h1>
+	<hr>
+	<p id="description">Required by all under the Empire's Forces</p>
+
+	<div id="quote">
+		<p>"Do it" <br> - <br> Emperor Palpatine</p>
+		<img id="palp-profile" width="157px" height="150px" src="Resources/palp profile.jpg" alt="">
+	</div>
+
+
 	<div id="container">
-		
-		<div id="survey-form">
-		
+
+		<div id="form">
+
+
+
 			<div class="form-section">
-				<label id="trooper-id-label" for="id">Trooper ID</label>
+				<label id="trooper-id-label" for="id">Trooper ID</b></label>
 				<input type="text" name="id" id="trooper-id" placeholder="FN-123" required>
 			</div>
-			
+
 			<div class="form-section">
-				 <label id="email-label" for="email">Email</label>
-				<input type="text" name="email" id="email" placeholder="stormtrooper123@empire.org" required>
+				<label id="email-label" for="email">Email</label>
+				<br>
+				<input type="email" name="email" id="email" placeholder="stormtrooper123@empire.org" required>
 			</div>
 
-			
+
 			<div class="form-section">
 				<label id="number-label" for="number">Years of Service</label>
-				<input type="number" name="number" id="number" placeholder="2" min="0" max="23" required>
+				<br>
+				<input type="number" name="number" id="number" placeholder="0-23" min="0" max="23" required>
 			</div>
-			
+
 			<div class="form-section">
 				<label id="dropdown-label" for="dropdown">Imperial Occupation Title</label>
+				<br>
 				<select name="dropdown" id="dropdown">
 					<option value="stormtrooper">Stormtrooper</option>
 					<option value="officer">Imperial Officer</option>
@@ -45,47 +59,70 @@
 					<option value="royal">Royal Guard</option>
 				</select>
 			</div>
-			
+
 			<div class="form-section">
-				<p>Are you satisfied with the Galatic Empire?</p>
-				<input type="radio" name="yes" class="radio-buttons" value="yes">
+				<p id="satisfaction-title">Are you satisfied with the Galatic Empire?</p>
+				<input type="radio" name="satisfaction" class="radio-buttons" value="yes">
 				<label class="radio-buttons-label" for="yes">Yes</label>
 				<br>
-				
-				<input type="radio" name="greatly" class="radio-buttons" value="greatly">
+
+				<input type="radio" name="satisfaction" class="radio-buttons" value="greatly">
 				<label class="radio-buttons-label" for="greatly">Greatly</label>
 				<br>
-				
-				<input type="radio" name="emperor" class="radio-buttons" value="emperor">
-				<label class="radio-buttons-label" for="emperor">All Hail Empire and Emperor Palpatine</label>
-				
+
+				<input type="radio" name="satisfaction" class="radio-buttons" value="emperor">
+				<label class="radio-buttons-label" for="emperor">All Hail Empire and Emperor</label>
 			</div>
 
-			<div id="checkboxes-label"></div>
-			<div id="checkboxes"></div>
+			<div class="form-section">
 
-			<div id="textarea"></div>
+				<div id="checkboxes-title">
+					<p>What Imperial Benefits require improvement? <br> <span>Check any number of boxes</span></p>
+				</div>
 
-			<div id="submit"></div>
-			
-			
+				<input type="checkbox" name="checkboxes" value="Dental Plan">
+				<label for="checkboxes" class="checkboxes">Dental Plan</label>
+				<br>
+
+				<input type="checkbox" name="checkboxes" value="Health Insurance">
+				<label for="checkboxes" class="checkboxes">Health Insurance</label>
+				<br>
+
+				<input type="checkbox" name="checkboxes" value="Paid Time Off">
+				<label for="checkboxes" class="checkboxes">Paid Time Off</label>
+				<br>
+
+				<input type="checkbox" name="checkboxes" value="Sick Leave">
+				<label for="checkboxes" class="checkboxes">Sick Leave</label>
+				<br>
+
+				<input type="checkbox" name="checkboxes" value="401k">
+				<label for="checkboxes" class="checkboxes">401k</label>
+				<br>
+
+				<input type="checkbox" name="checkboxes" onclick="return false" />
+				<label for="checkboxes" class="checkboxes">A Railing</label>
+				<br>
+
+			</div>
+
+			<div class="form-section">
+				<div id="textarea">
+					<br>
+					<label id="comments-label" for="comments">Comments and Additional Concerns</label>
+					<input type="text" name="comments" id="comments" placeholder="All railing requests will be sent to our Genosian design department for further review.">
+				</div>
+
+			</div>
+
+			<div class="form-section">
+				<button type="button" name="submit" id="submit">Submit</button>
+			</div>
 		</div>
 
-		
-	
-	
-	
 	</div>
-	
-	
 
-	
-	
-	
-	
 </body>
-	
-	
-	
-	
+
+
 </html>
