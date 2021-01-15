@@ -1,10 +1,11 @@
 html {
   background-color: black;
   background-image: url("Resources/background.png");
-  background-size:     auto;                      /* <------ */
-    background-repeat:   no-repeat;
-    background-position: center center;
-    bac
+  background-size: auto;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: left center;
+
 }
 
 #title {
@@ -190,4 +191,15 @@ html {
   font-family: 'Jura', sans-serif;
   font-weight: 500;
   font-size: 16px;
+}
+
+#youtube-link{
+  color: white;
+  font-family: 'Jura', sans-serif;
+  font-weight: 300;
+  font-size: 16px;
+}
+
+#youtube-link:hover:visited{
+  color: green;
 }
